@@ -9,13 +9,45 @@ body {
     font-size: small;
 }
 
-form {
-    text-align: center;
+a {
+    text-decoration: none;
 }
 
-img {
-    display: block;
-    margin: 200px auto 20px auto;
+/* Top Navbar 
+*************/
+.navbar-left-edge {
+    margin-left: 35px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+    /* Aligning right side to the left */
+    .icon-large, .icon-small, .navbar-right-text{
+        position: relative;
+    }
+
+    .icon-large {
+        bottom: 15px;
+    }
+
+    .icon-small {
+        bottom: 20px;
+    }
+
+    .navbar-right-text {
+        bottom: 29px;
+    }
+
+.navbar-right-edge {
+    margin-right: 35px;
+}
+
+/* Center area 
+**************/
+form {
+    text-align: center;
 }
 
 input[type="text"] {
@@ -30,6 +62,21 @@ input[type="button"] {
     margin-bottom: 30px;
 }
 
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
 .french {
     text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 200px auto 20px auto;
 }
