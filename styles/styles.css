@@ -1,8 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
 /* Main Area */
+.main-area-margin {
+    clear: both;
+}
+
 .main-area {
     text-align: center;
-    margin-top: 200px
+    margin-top: 150px;
 }
 
 form {
@@ -19,4 +27,39 @@ input[type="text"] {
     height: 43px;
     border-radius: 25px;
     margin-bottom: 25px;
+}
+
+/* Navbars */
+ul {
+    position: fixed;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: grey;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Top Navbar */
+.top-navbar {
+    top: 0;
+}
+
+/* Bottom Navbar*/
+.bottom-navbar {
+    bottom: 0;
 }
