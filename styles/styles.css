@@ -1,6 +1,13 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: arial, sans-serif;
+    font-size: small;
+    color: #7f6793;
+}
+
+a:visited {
+    color: #7f6793;
 }
 
 /* Main Area */
@@ -10,7 +17,7 @@
 
 .main-area {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 form {
@@ -37,7 +44,6 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: grey;
 }
 
 ul li {
@@ -46,7 +52,7 @@ ul li {
 
 ul li a {
     display: block;
-    padding: 8px 15px;
+    padding: 8px 9px;
     text-decoration: none;
 }
 
@@ -54,12 +60,44 @@ ul li a:hover {
     text-decoration: underline;
 }
 
+ul:first-child {
+    margin-left: 15px;
+}
+
+/* Navbar right-aligned elements */
+.navbar-right {
+    position: absolute;
+    right: 25px;
+}
+
+
 /* Top Navbar */
 .top-navbar {
     top: 0;
+    margin-top: 15px;
 }
+
+.navbar-sm-icon, .navbar-bg-icon {
+    position: relative;
+}
+
+.navbar-sm-icon {
+    top: -3px;
+}
+
+.navbar-bg-icon {
+    top: -10px;
+}
+
 
 /* Bottom Navbar*/
 .bottom-navbar {
     bottom: 0;
+    background-color: #f2f2f2;
+}
+
+/* Country location bar */
+.country-bar {
+    padding: 8px 15px;
+    bottom: 35px;
 }
